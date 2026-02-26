@@ -8,10 +8,14 @@ dependencies:
   - jupyterlab
   - matplotlib
   - seaborn
+  - scikit-learn
+  - scipy
+  - plotly
+  - wordcloud
   - bertopic
   - ipywidgets
   - nbformat
   - plotly
   - jupyter
-  - scikit-learn
+  - umap-learn
 prefix: /opt/homebrew/Caskroom/miniforge/base/envs/cultural_analytics
