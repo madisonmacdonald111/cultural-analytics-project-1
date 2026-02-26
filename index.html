@@ -15,23 +15,15 @@
     <p><em>Hi Professor Tim! The full analysis, code, and write-up live in the notebook and the README has setup instructions and repo structure if helpful. Both are linked below.</em></p>
     <ul>
         <li><a href="code/project-workflow.html">View Notebook</a></li>
+        <li><a href="README.html">View README</a></li>
     </ul>
 
     <h2>Summary</h2>
     <p>The short answer is yes, and the difference goes deeper than just writing style. Using TF-IDF based classification, a logistic regression model separated human from AI chunks with a macro F1 of 0.862. The most predictive features weren't random: AI writing consistently reflected more abstract language, while human writing was grounded in specific dates, citations, and institutional vocabulary. Topic modeling with BERTopic and LDA across two chunking strategies confirmed the same pattern, i.e., human chunks concentrated in narrative and academically grounded topics, while AI chunks concentrated in generic essay-prompt territory. All four model/strategy combinations returned chi-square p-values essentially at zero, meaning the Human vs. AI distinction showed up no matter how the data was sliced.</p>
 
-    <div id="readme"></div>
-
     <footer>
         <p>By Maddie MacDonald | UC Berkeley Statistics, MA</p>
     </footer>
-
-    <script>
-        fetch('README.md')
-            .then(res => res.text())
-            .then(text => {
-                document.getElementById('readme').innerHTML = marked.parse(text);
-            });
-    </script>
+    
 </body>
 </html>
