@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <title>INFO 230: Mini-Project 1</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 0 20px; }
+        body {font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 0 20px;}
     </style>
 </head>
 <body>
     <h1>INFO 230: Mini-Project 1</h1>
-    <p>A brief description of what your project is about.</p>
+    <p>Can we tell human writing from machine-generated text, and if so, what does that difference actually look like? This project applies a full cultural analytics pipeline to a corpus of 788,922 texts from humans and 62 different LLMs to find out.</p>
 
     <h2>Links</h2>
     <ul>
-        <li><a href="code/project-workflow.html">View Notebook</a>
+        <li><a href="code/project-workflow.html">View Notebook</a></li>
         <li><a href="README.md">View README</a></li>
     </ul>
 
     <h2>Summary</h2>
-    <p>Write a short summary of your findings or methodology here.</p>
+    <p>The short answer is yes, and the difference goes deeper than just writing style. Using TF-IDF-based classification, a Logistic Regression model separated human from AI chunks with a macro F1 of 0.862. The most predictive features weren't random: AI writing consistently reflected more abstract language, while human writing was grounded in specific dates, citations, and institutional vocabulary. Topic modeling with BERTopic and LDA across two chunking strategies confirmed the same pattern, i.e., human chunks concentrated in narrative and academically grounded topics, while AI chunks concentrated in generic essay-prompt territory. All four model/strategy combinations returned chi-square p-values essentially at zero, meaning the Human vs. AI distinction showed up no matter how the data was sliced.</p>
 
     <footer>
         <p>By Maddie MacDonald | UC Berkeley Statistics, MA</p>
     </footer>
-</body> 
+</body>
 </html>
