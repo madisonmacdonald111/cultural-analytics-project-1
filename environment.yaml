@@ -1,0 +1,17 @@
+name: cultural_analytics
+channels:
+  - conda-forge
+dependencies:
+  - python=3.14
+  - numpy
+  - pandas
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - bertopic
+  - ipywidgets
+  - nbformat
+  - plotly
+  - jupyter
+  - scikit-learn
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/cultural_analytics
