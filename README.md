@@ -3,7 +3,7 @@
 
 Central Research Question: Can we tell human writing from machine-generated text, and if so, what does that difference actually look like? This project applies a full cultural analytics pipeline to the [Human vs. LLM Text Corpus](https://www.kaggle.com/datasets/starblasters8/human-vs-llm-text-corpus/data) from Kaggle to find out. 
 
-For the full analysis, results, discussion, and all interpretations see the entire workflow in ```**code/project-workflow.ipynb**```. 
+For the full analysis, results, discussion, and all interpretations see the entire workflow in ```code/project-workflow.ipynb```. 
 
 ---
 ## Dataset 
